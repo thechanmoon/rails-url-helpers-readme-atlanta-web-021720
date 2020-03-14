@@ -13,3 +13,4 @@
 # t.datetime "updated_at",  null: false
 Student.create([{ first_name: "Rick", last_name: "Sanchez" }, { first_name: "Morty", last_name: "Smith" }])
 Post.create(title: 'TEST', description: 'DESCRIPTION', created_at: '03142020', updated_at: '03142020')
+Post.create(title: 'A lovely title', description: 'A superb description') 
